@@ -1,0 +1,24 @@
+views.py =>kullanıcıya html sayfasını gösteren kısım
+models.py => database tablolarını içinde barındıran kısım
+admin.py =>admin panaelinde database bilgilerini gösteren kısım
+---------------------------------------------------
+settings.py => site içindeki butun ayarlar
+urls.py => site içi uzantılar 
+------------------------------------------------
+runserver  => Web Uygulamasını local host üzerinden yayınlar
+createsuperuser => super user oluşturma komutu
+makemigrations => migrate tablolarını oşturufa-rotate-180
+migrate => oluşan migrat dosyarını tabloya ekler
+startapp => yeni uygulama oluşturur 
+-----------------------------------
+django-admin startproject projeismi => proje oluşturur
+----------------------------------
+<=== db ilişkileri ===>
+many to many => coka çok ilişki 
+many to one => coktan teke
+one to many => teke çok ilişki
+one to one => teke tek ilişki 
+-------------------------------------
+extends => Html dosyasını miras alır 
+block => parçalanan dosyadaki güncellemeler
+include => farklı bir dosyayı içindekilerle olduğu gibi aktarma 

@@ -1,0 +1,25 @@
+{% extends "homebase.html" %}
+{% block head %}
+<title>E-Shop Login</title>
+{% endblock head %}
+{% block slider %}
+<div class="hero-image" id="full-width">
+    <div class="hero-text-form">
+        <form class="text-center"  method="POST">
+            <h3>Lütfen Giriş Yapınız</h3>
+            {% csrf_token %}
+            <div class="form-floating mb-3">
+                {{ form}}
+            </div>
+            
+
+            <br />
+            
+            <button type="submit" class="btn btn-lg btn-success">
+                Giriş Yap
+            </button>
+        </form>
+    </div>
+</div>
+<!--**hero image-->
+	{% endblock slider %}
